@@ -24,7 +24,7 @@ header a {
   transition: 0.2s ease-in all;
 }
 
-header li a:hover {
+header a:hover {
   background-color: rgb(255, 251, 0);
   color: rgb(77, 77, 77);
   text-shadow: none;
@@ -52,4 +52,24 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+footer {
+  background: linear-gradient(30deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  padding: 40px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer li img {
+  width: 100%;
 }
