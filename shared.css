@@ -24,7 +24,7 @@ header a {
   transition: 0.2s ease-in all;
 }
 
-header a:hover {
+header nav a:hover {
   background-color: rgb(255, 251, 0);
   color: rgb(77, 77, 77);
   text-shadow: none;
